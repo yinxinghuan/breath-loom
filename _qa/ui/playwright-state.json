@@ -1,0 +1,71 @@
+{
+  "guided": {
+    "active": false,
+    "tension": 0.6236993799932,
+    "release": 0,
+    "pointer": [
+      -0.2001875590250784,
+      -0.10890012115599892
+    ],
+    "ghostState": "drawing"
+  },
+  "held": {
+    "active": true,
+    "tension": 0.9999964200372282,
+    "release": 0,
+    "pointer": [
+      0.6298111132727962,
+      -0.40682251686711474
+    ],
+    "ghostState": "done"
+  },
+  "peak": {
+    "active": false,
+    "tension": 0.029356617729660958,
+    "release": -0.9543333331743876,
+    "pointer": [
+      0.5220053635851161,
+      -0.3372936219563528
+    ],
+    "ghostState": "done"
+  },
+  "settled": {
+    "active": false,
+    "tension": 2.6091031947625885e-16,
+    "release": 0,
+    "pointer": [
+      0.025117004132462553,
+      -0.016229806161185027
+    ],
+    "ghostState": "done"
+  },
+  "compact": {
+    "active": false,
+    "tension": 0.8315128916863145,
+    "release": 0,
+    "pointer": [
+      -0.1066050664694658,
+      -0.2783526885955292
+    ],
+    "ghostState": "drawing"
+  },
+  "baseline": {
+    "state": {
+      "active": false,
+      "tension": 0,
+      "release": 0,
+      "pointer": [
+        0,
+        0
+      ],
+      "ghostState": "waiting"
+    },
+    "hudHidden": true,
+    "ghostHidden": true
+  },
+  "errorState": {
+    "hidden": false,
+    "text": "THE LOOM COULD NOT OPEN\nCanvas rendering is required."
+  },
+  "errors": []
+}

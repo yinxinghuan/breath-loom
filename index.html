@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="game-uuid" content="5eeb1dc6-a744-4dc4-a4b2-944c30f0e84d" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Breath Loom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:FILL@1&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="bl-stage" aria-label="Breath Loom interactive visual">
+      <div class="bl-canvas" id="canvasHost"></div>
+      <header class="bl-hud" id="hud">
+        <div class="bl-lockup"><span class="bl-title">BREATH LOOM</span><span class="bl-index">FIELD 80 / 200</span></div>
+        <button class="bl-reset" id="resetButton" type="button" aria-label="Reset line field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.34 5.66M20 5v6h-6" /></svg>
+        </button>
+      </header>
+      <div class="bl-ghost" id="ghost" aria-hidden="true"><span class="material-symbols-rounded">touch_app</span></div>
+      <div class="bl-loader" id="loader"><i></i><span>WEAVING 16,080 POINTS</span></div>
+      <section class="bl-error" id="error" hidden><strong>THE LOOM COULD NOT OPEN</strong><span>Canvas rendering is required.</span></section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
