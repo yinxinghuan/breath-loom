@@ -1,0 +1,13 @@
+{
+  "provider": "Aigram platform transit",
+  "endpoint": "https://chat.aiwaves.tech/aigram/api/gen-image",
+  "origin": "https://aigram.app",
+  "generated_at": "2026-07-23",
+  "ref_url": "https://raw.githubusercontent.com/yinxinghuan/breath-loom/main/public/poster-reference.png",
+  "source_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1784752577994429.webp",
+  "source_file": "_production/poster-source-final.webp",
+  "final_file": "public/poster.png",
+  "final_size": "1024x1024",
+  "thumbnail_checked": "160x160",
+  "notes": "The real monochrome line-field peak anchored the fiber language. The platform output was cropped to square and typeset in the upper safe area; no device frame or interface chrome is present."
+}
